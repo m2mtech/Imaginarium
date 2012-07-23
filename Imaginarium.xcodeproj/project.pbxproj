@@ -16,6 +16,7 @@
 		5B7499AF15BD9DAC001EFD01 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B7499AD15BD9DAC001EFD01 /* MainStoryboard_iPhone.storyboard */; };
 		5B7499B215BD9DAC001EFD01 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B7499B015BD9DAC001EFD01 /* MainStoryboard_iPad.storyboard */; };
 		5B7499B515BD9DAC001EFD01 /* ImaginariumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7499B415BD9DAC001EFD01 /* ImaginariumViewController.m */; };
+		5B7499BC15BD9FD5001EFD01 /* flower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B7499BB15BD9FD5001EFD01 /* flower.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,17 @@
 		5B74999B15BD9DAC001EFD01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5B74999D15BD9DAC001EFD01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B74999F15BD9DAC001EFD01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5B7499A315BD9DAC001EFD01 /* Imaginarium-Info.plist */ = {isa = PBXFileReference; path = "Imaginarium-Info.plist"; sourceTree = "<group>"; };
+		5B7499A315BD9DAC001EFD01 /* Imaginarium-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Imaginarium-Info.plist"; sourceTree = "<group>"; };
 		5B7499A515BD9DAC001EFD01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B7499A715BD9DAC001EFD01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5B7499A915BD9DAC001EFD01 /* Imaginarium-Prefix.pch */ = {isa = PBXFileReference; path = "Imaginarium-Prefix.pch"; sourceTree = "<group>"; };
-		5B7499AA15BD9DAC001EFD01 /* ImaginariumAppDelegate.h */ = {isa = PBXFileReference; path = ImaginariumAppDelegate.h; sourceTree = "<group>"; };
+		5B7499A915BD9DAC001EFD01 /* Imaginarium-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Imaginarium-Prefix.pch"; sourceTree = "<group>"; };
+		5B7499AA15BD9DAC001EFD01 /* ImaginariumAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImaginariumAppDelegate.h; sourceTree = "<group>"; };
 		5B7499AB15BD9DAC001EFD01 /* ImaginariumAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImaginariumAppDelegate.m; sourceTree = "<group>"; };
 		5B7499AE15BD9DAC001EFD01 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		5B7499B115BD9DAC001EFD01 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		5B7499B315BD9DAC001EFD01 /* ImaginariumViewController.h */ = {isa = PBXFileReference; path = ImaginariumViewController.h; sourceTree = "<group>"; };
+		5B7499B315BD9DAC001EFD01 /* ImaginariumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImaginariumViewController.h; sourceTree = "<group>"; };
 		5B7499B415BD9DAC001EFD01 /* ImaginariumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImaginariumViewController.m; sourceTree = "<group>"; };
+		5B7499BB15BD9FD5001EFD01 /* flower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flower.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				5B7499B015BD9DAC001EFD01 /* MainStoryboard_iPad.storyboard */,
 				5B7499B315BD9DAC001EFD01 /* ImaginariumViewController.h */,
 				5B7499B415BD9DAC001EFD01 /* ImaginariumViewController.m */,
+				5B7499BB15BD9FD5001EFD01 /* flower.jpg */,
 				5B7499A215BD9DAC001EFD01 /* Supporting Files */,
 			);
 			path = Imaginarium;
@@ -156,6 +159,7 @@
 				5B7499A615BD9DAC001EFD01 /* InfoPlist.strings in Resources */,
 				5B7499AF15BD9DAC001EFD01 /* MainStoryboard_iPhone.storyboard in Resources */,
 				5B7499B215BD9DAC001EFD01 /* MainStoryboard_iPad.storyboard in Resources */,
+				5B7499BC15BD9FD5001EFD01 /* flower.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
